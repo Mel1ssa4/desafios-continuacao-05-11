@@ -1,0 +1,104 @@
+/* .dark{
+    background-color: black;
+    color: white;
+}  
+  .blue.Theme{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+} */
+/* desafio 2 */
+
+
+
+
+/* desafio 3 */
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+input, button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+#res {
+  font-weight: bold;
+}
+/* desafio4 */
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .form-container {
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+    .form-container h2 {
+      margin-bottom: 16px;
+      color: #333;
+    }
+    .input-group {
+      margin-bottom: 12px;
+      text-align: left;
+    }
+    .input-group label {
+      display: block;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 4px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #resultado {
+      margin-top: 16px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+
+
+
+   
+    
+    
+
+
+
+
+
+ 
+
