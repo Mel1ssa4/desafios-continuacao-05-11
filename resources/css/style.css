@@ -88,7 +88,132 @@ body {
       font-weight: bold;
       color: #2c3e50;
     }
+/*desafio 5  */
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+    }
 
+    select {
+      padding: 8px 12px;
+      font-size: 16px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+/*desafio 6  */
+
+
+
+/*desafio 7  */
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #4fa84e 0%, #1c5229 100%);
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 14px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 6px;
+      font-size: 15px;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    input:focus {
+      border-color: #2e7d32;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s, transform 0.1s;
+    }
+
+    button:hover {
+      background-color: #1b5e20;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+
+    #resultado {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      min-height: 24px;
+      transition: color 0.3s ease;
+    }
+
+    .aprovado {
+      color: #2e7d32; 
+    }
+
+    .reprovado {
+      color: #d32f2f; 
+    }
+
+    .erro {
+      color: #f57c00; 
+    }
 
 
 
